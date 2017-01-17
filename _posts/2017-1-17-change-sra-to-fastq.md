@@ -16,6 +16,7 @@ sra是NCBI 推出的存储高通量数据的格式，而平常我们处理的多
 
 -O 指定输出目录
 –split-3 对于双末端测序，一定使用这个参数，将一个\*.sra文件转换成\*_1.fastq和\*_2.fastq两个文件，否则就会转换成一个\*.fastq文件，后续的分析会出错。
+
 ```bash
 fastq-dump *.sra -O PATH  #单端
 fastq-dump --split-3 *.sra -O PATH  #双端
