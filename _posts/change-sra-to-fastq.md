@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "将sra格式转成fastq格式"
+date: "2017-1-17"
 categories: 生信基础软件
 tags: 生信
 keywords: fastq-dump sra fastq
